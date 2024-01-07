@@ -1,0 +1,18 @@
+body {
+    background-color: #808080; 
+    justify-content: center;
+    align-items: center;
+    
+}
+img {
+    height: 0; 
+    width: 89%;
+    opacity: 0; 
+    transition: height 1s, opacity 1s; 
+}
+
+body.loaded img {
+    
+    height: 89%; 
+    opacity: 1; 
+}

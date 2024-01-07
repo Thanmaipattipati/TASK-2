@@ -1,0 +1,59 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+}
+
+h2 {
+    color: #740202;
+}
+
+ul {
+    list-style-type:circle;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+ul ul {
+    margin-left: 20px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+h1, h2, ul {
+    animation: fadeIn 1s ease-out;
+}

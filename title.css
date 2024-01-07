@@ -1,0 +1,12 @@
+
+
+body {
+    text-align: center;
+    background-color: grey;
+}
+
+h1, h2 {
+    color: whitesmoke;
+    font-size: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
